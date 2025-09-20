@@ -1,4 +1,17 @@
 {
   "mcpServers": {
+    "calc": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://{id}.lambda-url.ap-northeast-1.on.aws/mcp"
+      ],
+      "disabled": false,
+      "disabledTools": [],
+      "autoApprove": [
+        "add"
+      ]
+    }
   }
 }
